@@ -12,5 +12,5 @@ Theme :
 EduTech
 
 Instructions in using website:
-To LOGIN Username:Webhackers Password:Webhackers 
+To LOGIN Username:Webhackers Password:Webhackers ,
 All the files uploaded in repository should be kept in a single folder and visit the "home.html" file to open the website.
