@@ -1,0 +1,218 @@
+<html>
+<head>
+<style>
+@import url(https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+body {
+  font-family: tahoma;
+  height: 100vh;
+  background:linear-gradient(to bottom,#01062A 0%,#004e92 100%);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-top:130px;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
+}
+.about
+{
+float:left;
+font-size:24px;
+color:white;
+background:linear-gradient(to bottom,#01062A 0%,#004e92 100%);
+margin-bottom:-20px;
+}
+h5{
+text-align:center;
+size:50px;
+}
+
+</style>
+</head>
+<body>
+<div class="about">
+<img src="logo.png" align="left" height="110px" width="120px">
+<center>
+
+<span style="font-size:80px; color:red" text-align:"center"> HACKQUID</span><br>
+</center>
+<h1 align="center" > ABOUT US</h1>
+<p style="text-align:center" font-size="6px"> Usually Hackathon is a competitive event in which people work in groups on software or hardware projects, with the goal of creating a functioning product by the end of the event</p>
+<p style="text-align:center" font-size="6px">Hackquid combines hackathons, an innovation platform and accelerators in a unique manner. Our mission is to build a community where the best talent and leading industry partners could meet and collaborate towards future innovations.</p>
+<h5 style="color:red;font-size:50px">Volunteers</h5>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="stu.jpg">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Mr G.Divij Reddy</h3>
+          <h4 class="title">Mentor</h4>
+        </div>
+               <ul class="social">
+          <li><a href="" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="std.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Mr.Anuroop</h3>
+          <h4 class="title">Mentor</h4>
+        </div>
+                <ul class="social">
+          <li><a href="" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="stu.jpg">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Mr Prabhan</h3>
+          <h4 class="title">Support Team</h4>
+        </div>
+        <ul class="social">
+          <li><a href="" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="std.png">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Mr Kalyan Raj</h3>
+          <h4 class="title">Support Team</h4>
+        </div>
+                <ul class="social">
+          <li><a href="" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

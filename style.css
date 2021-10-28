@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.head
+{
+	width:100%;
+	height:110px;
+	background:linear-gradient(to top,#525250 0%,#000000);
+}
+		
+		a {
+  			text-decoration: none;
+		}
+
+		nav {
+ 			font-family: monospace;
+ 			margin-top: -18px;
+ 			display: flex;
+ 			justify-content: center;
+		}
+
+		ul {
+  			background: #333;
+  			list-style: none;
+  			width: 100%;
+  			display: flex;
+  			justify-content: center;
+  			margin: 0;
+  			padding-left: 0;
+  			font-size: 20px;
+  			font-family: monospace;
+  			font-weight: 400;
+		}
+
+		li {
+  			color: #fff;
+  			background: #333;
+  			float: left;
+  			padding: 1rem;
+  			position: relative;
+  			text-decoration: none;
+  			transition-duration: 0.5s;
+		}
+  
+		li a {
+ 			 color: #fff;
+		}
+		li a:hover{
+			color: black;
+		}
+
+		li:hover {
+ 			 background: #ddd;
+ 			 cursor: pointer;
+		}
+
+		ul li ul {
+ 			 background: #333;
+			 visibility: hidden;
+  			 opacity: 0;
+  			 min-width: 5rem;
+ 			 position: absolute;
+   			transition: all 0.5s ease;
+  			margin-top: 1rem;
+  			left: 0;
+  			display: none;
+			}
+
+		ul li:hover > ul,
+		ul li ul:hover {
+ 		  visibility: visible;
+  		  opacity: 1;
+  		  display: block;
+        }
+
+ 		ul li ul li {
+  			clear: both;
+  			width: 100%;
+		}
+		nav{
+			width: 100%;
+		}
+		.side_block{
+			margin-top:70px;
+			border:1px solid blue;
+			background-color: gray;
+		}
+#p1
+{
+  margin-top:50px;
+  border-radius: 50%;
+}
+.hero-image 
+{
+  margin-top:20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-bg.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ticker {
+	float:left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30px;
+}
+.news {
+	display:inline;
+    width: 80%;
+	height:30px;
+    background: #A7B2F9;
+}
+.title {
+    width: 20%;
+	height:30px;
+    text-align: center;
+    background: #060A25;
+    position: relative;
+	color:white;
+	
+}
+.title:after {
+    position: absolute;
+    content: "";
+    right: -15%;
+    border-left: 20px solid #060A25;
+    border-top: 15px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid transparent;
+    top: 0;
+}
+.title h5 {
+    font-size: 18px;
+	margin:2%
+}
+.news marquee{
+    font-size: 18px;
+	margin-top:5px;
+	
+}
+.contact
+{
+	margin-top:-25px;
+}

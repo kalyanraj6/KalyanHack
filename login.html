@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script>  
+function validate(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value; 
+if (name==null || password==""){  
+  alert("enter your username and password");
+  return false;
+}else if(name.length<8){  
+alert("username can't be less then 8 characters");
+return false;
+  }  
+  else if(password.length<8)
+  {
+  alert("password can't be less then 8 characters");
+return false;
+  }
+  else{
+  //alert("Valid");
+  return verify(name,password);}
+}  
+function verify(name,password){  
+if(name=="Webhackers" && password=="Webhackers"){
+//alert("Valid");
+return true
+  }
+else
+{
+alert("wrong username or password");
+return false;
+}  
+}
+</script>  
+</head>
+<form name="myform" class="login_box" action="home1.html" onsubmit="return validate()" method="post">
+<h1>LOGIN</h1>
+<input type="text" name="name" placeholder="Username" value="">
+<input type="password" name="password" placeholder="Password" value="">
+<a href="sign.html" style="margin-left:30px">Create new account</a></h1></font>
+<input type="submit" name="submit" class="btn" value="Login">
+</html>	
